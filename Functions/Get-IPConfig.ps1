@@ -3,8 +3,8 @@ function Get-IPConfig {
 	param(
 		[Parameter(Mandatory=$False,ValueFromPipeline=$True)]
 		[string[]]$Computername="LocalHost",
-      [Parameter(Mandatory=$False)][bool]$OnlyConnectedNetworkAdapters=$true
-   )
+		[Parameter(Mandatory=$False)][bool]$OnlyConnectedNetworkAdapters=$true
+	)
    Begin {
       Write-Verbose "Initialize stuff in Begin block"
    }
