@@ -1,0 +1,1 @@
+(Get-EventLog -LogName "System").Message -match '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' $Matches[0]
